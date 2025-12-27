@@ -12,3 +12,9 @@ Merge split transgender flag images into a single emoji on X.com
 
 ## Install
 
+- Userscript manager (e.g., Tampermonkey)
+- [Install from GreasyFork](https://greasyfork.org/scripts/560369-x-trans-flag-merger)
+
+## License
+
+[MIT LICENSE](./LICENSE)
