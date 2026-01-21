@@ -6,6 +6,7 @@
 // @author       Yumeka
 // @match        https://twitter.com/*
 // @match        https://x.com/*
+// @icon         https://www.google.com/s2/favicons?sz=64&domain=x.com
 // @grant        none
 // @run-at       document-end
 // ==/UserScript==
