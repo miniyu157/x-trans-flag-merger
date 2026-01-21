@@ -4,11 +4,9 @@ Merge split transgender flag images into a single emoji on X.com
 
 ## Preview
 
-![1](https://raw.githubusercontent.com/miniyu157/x-trans-flag-merger/refs/heads/main/1.png)
-
-↓
-
-![2](https://raw.githubusercontent.com/miniyu157/x-trans-flag-merger/refs/heads/main/2.png)
+| old | new |
+| :--- | :---: |
+| ![1f3f3](https://raw.githubusercontent.com/miniyu157/x-trans-flag-merger/main/1f3f3.svg)![26a7](https://raw.githubusercontent.com/miniyu157/x-trans-flag-merger/main/26a7.svg) | ![1f3f3-fe0f-200d-26a7-fe0f.](https://raw.githubusercontent.com/miniyu157/x-trans-flag-merger/main/1f3f3-fe0f-200d-26a7-fe0f.svg) |
 
 ## Install
 

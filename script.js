@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         X Trans Flag Merger
 // @namespace    http://tampermonkey.net/
-// @version      1.0
+// @version      26.1.21
 // @description  Merge split transgender flag images into a single emoji on X.com
 // @author       Yumeka
 // @match        https://twitter.com/*
@@ -34,7 +34,12 @@
 
       // Verify structure matches the split emoji pattern
       // Replace the entire sequence with the standard emoji
-      const emojiNode = document.createTextNode('🏳️‍⚧️');
+      const emojiNode = document.createElement('img');
+      emojiNode.alt = '🏳️‍⚧️';
+      emojiNode.draggable = false;
+      emojiNode.src = 'https://abs-0.twimg.com/emoji/v2/svg/1f3f3-fe0f-200d-26a7-fe0f.svg';
+      emojiNode.title = '跨性别者旗帜';
+      emojiNode.className = 'r-4qtqp9 r-dflpy8 r-k4bwe5 r-1kpi4qh r-pp5qcn r-h9hxbl';
 
       // Insert emoji before the flag
       flag.parentNode.insertBefore(emojiNode, flag);
